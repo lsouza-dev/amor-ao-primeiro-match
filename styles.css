@@ -50,12 +50,22 @@ body {
         text-align: start;
         font-size: 5.5vw;
     }
+
+    .carrossel-container{
+        max-height: 650px;
+    }
+
+
 }
 
 @media (max-width: 425px) {
     #textContainer p {
         text-align: start;
         font-size: 6.4vw;
+    }
+
+    .carrossel-container{
+        max-height: 350px;
     }
 }
 

@@ -144,8 +144,27 @@
 
         <h1 class="titulo" style="margin: 0; padding: 0;">Nossa Música 🎼</h1>
         <div class="video-container">
-            <video src="video/musica.mp4" class="video-container video" controls></video>
+            <video class="video" controls>
+                <!-- Formato MP4 -->
+                <source src="video/musica.mp4" type="video/mp4">
+                
+                <!-- Formato MOV (ideal para iOS) -->
+                <source src="video/musica.mov" type="video/quicktime">
+                
+                <!-- Formato M4V -->
+                <source src="video/musica.m4v" type="video/x-m4v">
+                
+                <!-- Formato OGG -->
+                <source src="video/musica.ogv" type="video/ogg">
+                
+                <!-- Formato WAV (menor compatibilidade, mas é uma opção de áudio) -->
+                <source src="video/musica.wav" type="audio/wav">
+                
+                <!-- Texto alternativo caso nenhum formato seja suportado -->
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
         </div>
+        
     </div>
     <script src="scripts.js"></script>
 </body>
