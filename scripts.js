@@ -152,7 +152,7 @@ setInterval(nextSlide, 5000);
 
 // Tempo Decorrido
 function atualizarTempoDecorrido() {
-    const dataInicio = new Date('2024-12-31T12:00:00');
+    const dataInicio = new Date('2024-12-17T21:00:00');
     const agora = new Date();
     const diferenca = agora - dataInicio;
 

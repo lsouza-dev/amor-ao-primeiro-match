@@ -159,8 +159,8 @@ body {
 .carrossel-container {
     position: relative;
     width: 80%;
-    max-width: 800px;
-    height: 600px;
+    max-width: 850px;
+    height: 850px;
     overflow: hidden;
     background-color: #1f1f1f;
     border-radius: 10px;
